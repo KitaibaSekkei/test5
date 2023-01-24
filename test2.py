@@ -95,9 +95,8 @@ if b1=="重回帰分析":
             x3 = x2.iloc[:, 0]
             x=[1,2,3,4,5,6]
             sns.set(font='Meiryo')
-            st.write(x3)
-            st.write(a)
-            g3 = sns.barplot(a,x3) 
+            #g3 = sns.barplot(a,x3) 
+            g3 = sns.barplot(x3)
             st.pyplot(g3.figure)
 
         st.subheader("行列散布図(ペアプロット)")
