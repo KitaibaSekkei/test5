@@ -96,6 +96,7 @@ if b1=="重回帰分析":
             x=[1,2,3,4,5,6]
             sns.set(font='Meiryo')
             st.write(x3)
+            st.write(a)
             g3 = sns.barplot(a,x3) 
             st.pyplot(g3.figure)
 
