@@ -34,11 +34,6 @@ if b1=="重回帰分析":
     data = st.text_area('データ入力欄')
 
     if st.sidebar.button('実行'):
-
-        #sns.set(font_scale = 2)
-        #plt.style.use('default')
-        #plt.rcParams['xtick.direction'] = 'in'
-        #plt.rcParams['ytick.direction'] = 'in'
         
         data = pd.read_csv(io.StringIO(data), header=0,sep='\s+')
         st.write(data)
