@@ -1,5 +1,5 @@
 streamlit
-seaborn --0.11.2
+seaborn
 pandas
 numpy
 scikit-learn
