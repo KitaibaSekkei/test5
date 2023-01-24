@@ -5,4 +5,3 @@ numpy
 slearn
 matplotlib
 scipy
-io
