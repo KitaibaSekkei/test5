@@ -36,7 +36,7 @@ if b1=="重回帰分析":
     if st.sidebar.button('実行'):
         
         data = pd.read_csv(io.StringIO(data), header=0,sep='\s+')
-        st.write(data)
+        #st.write(data)
 
         st.title("重回帰分析結果")
         #csvファイルの呼び出し
